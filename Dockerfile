@@ -1,6 +1,6 @@
 ARG notebook_version=6.4.7
 
-FROM jupyter/all-spark-notebook:notebook-${notebook_version}
+FROM jupyter/pyspark-notebook:notebook-${notebook_version}
 
 USER root
 
